@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI.Main">
+  <grid id="dbe95" binding="mainPanel" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="0" y="20" width="745" height="511"/>
+      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3"/>
+    </constraints>
+    <properties>
+      <enabled value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="6eb40" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <xy x="116" y="0" width="629" height="511"/>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="3"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="4d493" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <xy x="0" y="0" width="629" height="350"/>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="3">
+                <preferred-size width="850" height="350"/>
+              </grid>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <scrollpane id="7bf61" binding="treeScroller">
+                <constraints>
+                  <xy x="0" y="0" width="629" height="350"/>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3"/>
+                </constraints>
+                <properties>
+                  <doubleBuffered value="false"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </scrollpane>
+            </children>
+          </grid>
+          <scrollpane id="fe82f" binding="polygonScroller">
+            <constraints>
+              <xy x="0" y="355" width="629" height="156"/>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children/>
+          </scrollpane>
+        </children>
+      </grid>
+      <grid id="80115" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <xy x="0" y="0" width="106" height="511"/>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="c2d27" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <xy x="0" y="0" width="106" height="82"/>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="347bc" class="javax.swing.JButton" binding="add">
+                <constraints>
+                  <xy x="0" y="0" width="65" height="24"/>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1"/>
+                </constraints>
+                <properties>
+                  <text value="Add"/>
+                </properties>
+              </component>
+              <component id="8ac9d" class="javax.swing.JComboBox" binding="addNumber">
+                <constraints>
+                  <xy x="75" y="0" width="31" height="23"/>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="34dda" class="javax.swing.JButton" binding="delete">
+                <constraints>
+                  <xy x="0" y="29" width="65" height="24"/>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1"/>
+                </constraints>
+                <properties>
+                  <text value="Delete"/>
+                </properties>
+              </component>
+              <component id="49113" class="javax.swing.JButton" binding="clear">
+                <constraints>
+                  <xy x="0" y="58" width="65" height="24"/>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1"/>
+                </constraints>
+                <properties>
+                  <text value="Clear"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="4f157" row-count="6" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <xy x="0" y="212" width="106" height="146"/>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="de9ab" class="javax.swing.JLabel">
+                <constraints>
+                  <xy x="80" y="3" width="8" height="14"/>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0"/>
+                </constraints>
+                <properties>
+                  <text value="m"/>
+                </properties>
+              </component>
+              <component id="c0ef2" class="javax.swing.JComboBox" binding="combo_m">
+                <constraints>
+                  <xy x="68" y="25" width="31" height="23"/>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="e6a30" class="javax.swing.JLabel">
+                <constraints>
+                  <xy x="22" y="3" width="8" height="14"/>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0"/>
+                </constraints>
+                <properties>
+                  <text value="M"/>
+                </properties>
+              </component>
+              <component id="bad4e" class="javax.swing.JComboBox" binding="combo_M">
+                <constraints>
+                  <xy x="10" y="25" width="31" height="23"/>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0"/>
+                </constraints>
+                <properties/>
+              </component>
+              <vspacer id="de9b5">
+                <constraints>
+                  <xy x="20" y="53" width="11" height="20"/>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2">
+                    <preferred-size width="-1" height="20"/>
+                  </grid>
+                </constraints>
+              </vspacer>
+              <component id="22c4e" class="javax.swing.JLabel">
+                <constraints>
+                  <xy x="12" y="101" width="28" height="14"/>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0"/>
+                </constraints>
+                <properties>
+                  <text value="Width"/>
+                </properties>
+              </component>
+              <component id="69662" class="javax.swing.JLabel">
+                <constraints>
+                  <xy x="68" y="101" width="31" height="14"/>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0"/>
+                </constraints>
+                <properties>
+                  <text value="Height"/>
+                </properties>
+              </component>
+              <component id="c0c90" class="javax.swing.JComboBox" binding="combo_width">
+                <constraints>
+                  <xy x="10" y="123" width="31" height="23"/>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="ac229" class="javax.swing.JComboBox" binding="combo_height">
+                <constraints>
+                  <xy x="62" y="123" width="44" height="23"/>
+                  <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="f81ac" class="javax.swing.JLabel">
+                <constraints>
+                  <xy x="14" y="76" width="38" height="14"/>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0"/>
+                </constraints>
+                <properties>
+                  <horizontalAlignment value="4"/>
+                  <horizontalTextPosition value="4"/>
+                  <text value="Polygon"/>
+                </properties>
+              </component>
+              <component id="699f2" class="javax.swing.JLabel">
+                <constraints>
+                  <xy x="62" y="76" width="18" height="14"/>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0"/>
+                </constraints>
+                <properties>
+                  <horizontalAlignment value="2"/>
+                  <horizontalTextPosition value="2"/>
+                  <text value="size"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="468cb" class="javax.swing.JButton" binding="help">
+            <constraints>
+              <xy x="0" y="487" width="106" height="24"/>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1"/>
+            </constraints>
+            <properties>
+              <text value="Help"/>
+            </properties>
+          </component>
+          <vspacer id="29f74">
+            <constraints>
+              <xy x="47" y="363" width="11" height="124"/>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="eb4ac">
+            <constraints>
+              <xy x="47" y="87" width="11" height="125"/>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
