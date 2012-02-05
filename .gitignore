@@ -5,3 +5,5 @@
 
 *.rar
 *.zip
+
+/classes/**
